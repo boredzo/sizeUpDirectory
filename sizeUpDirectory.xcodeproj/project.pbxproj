@@ -46,6 +46,7 @@
 		3192AEE717F53C5D00982576 /* PRHDirectoryWeigher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHDirectoryWeigher.h; sourceTree = "<group>"; };
 		3192AEE817F53C5D00982576 /* PRHDirectoryWeigher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHDirectoryWeigher.m; sourceTree = "<group>"; };
 		3192AEEB17F53C7200982576 /* PRHDirectoryWeigher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHDirectoryWeigher.m; sourceTree = "<group>"; };
+		31F9637217F61688001AAC06 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				3192AEE217F53BB300982576 /* sizeUpDirectoryCocoa */,
 				3192AED817F53AF200982576 /* sizeUpDirectoryCF */,
 				3192AEC317F53A9200982576 /* Frameworks */,
+				31F9637017F61687001AAC06 /* Warnings */,
 				3192AEC217F53A9200982576 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +131,14 @@
 				3192AEE417F53BB300982576 /* sizeUpDirectoryCocoa-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F9637017F61687001AAC06 /* Warnings */ = {
+			isa = PBXGroup;
+			children = (
+				31F9637217F61688001AAC06 /* Warnings.xcconfig */,
+			);
+			path = Warnings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +229,7 @@
 /* Begin XCBuildConfiguration section */
 		3192AECD17F53A9200982576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F9637217F61688001AAC06 /* Warnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -252,6 +263,7 @@
 		};
 		3192AECE17F53A9200982576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F9637217F61688001AAC06 /* Warnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
